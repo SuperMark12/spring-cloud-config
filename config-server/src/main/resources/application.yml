@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8880
 
 spring:
   application:
@@ -13,4 +13,10 @@ spring:
           username:
           password:
       label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka/
+
 
